@@ -1,6 +1,6 @@
 import React from 'react';
+import { View, StyleSheet } from 'react-native';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
-import { StyleSheet } from 'react-native';
 import { ThemedText } from '@/components/themed-text';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
