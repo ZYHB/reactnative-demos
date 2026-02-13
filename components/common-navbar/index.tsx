@@ -1,5 +1,5 @@
+import { Ionicons } from '@expo/vector-icons';
 import { useNavigation } from 'expo-router';
-import { ArrowLeft } from 'lucide-react-native';
 import React from 'react';
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -57,7 +57,7 @@ export const CommonNavBar: React.FC<CommonNavBarProps> = ({
             onPress={handleBackPress}
             activeOpacity={0.7}
           >
-            <ArrowLeft size={24} color={titleColor} strokeWidth={2.5} />
+            <Ionicons name="chevron-back" size={24} color={titleColor} />
           </TouchableOpacity>
         )}
 
