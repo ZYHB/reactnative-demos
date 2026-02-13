@@ -1,12 +1,7 @@
-import React, { useRef, useState } from 'react';
-import {
-  View,
-  StyleSheet,
-  TouchableOpacity,
-  Dimensions,
-} from 'react-native';
+import React from 'react';
+import { View, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { PagerViewOnPageScrollEvent, PagerView } from 'react-native-pager-view';
+import { PagerView } from 'react-native-pager-view';
 import { Image } from 'expo-image';
 import { ThemedView } from '@/components/themed-view';
 
@@ -15,124 +10,42 @@ const DEVICE_WIDTH = Dimensions.get('window').width;
 export interface BannerItem {
   id: string;
   imageUrl: string;
-  title?: string;
-  linkUrl?: string;
 }
 
 export interface BannerProps {
   data: BannerItem[];
-  autoPlay?: boolean;
-  autoPlayInterval?: number;
   onBannerPress?: (item: BannerItem) => void;
 }
 
 export function Banner({
   data,
-  autoPlay = true,
-  autoPlayInterval = 3000,
   onBannerPress,
 }: BannerProps) {
-  const [currentPage, setCurrentPage] = useState(0);
-  const pagerRef = useRef<PagerView>(null);
-  const autoPlayTimerRef = useRef<NodeJS.Timeout | null>(null);
-
   const insets = useSafeAreaInsets();
-
-  // 安全检查：确保 data 不为空
-  const safeData = data.filter((item) => item?.imageUrl);
-
-  // 自动轮播
-  const startAutoPlay = () => {
-    if (!autoPlay || safeData.length <= 1) return;
-
-    stopAutoPlay();
-
-    autoPlayTimerRef.current = setTimeout(() => {
-      const nextPage = (currentPage + 1) % safeData.length;
-      pagerRef.current?.setPage(nextPage);
-      setCurrentPage(nextPage);
-      startAutoPlay();
-    }, autoPlayInterval);
-  };
-
-  const stopAutoPlay = () => {
-    if (autoPlayTimerRef.current) {
-      clearTimeout(autoPlayTimerRef.current);
-      autoPlayTimerRef.current = null;
-    }
-  };
-
-  // 页面切换事件
-  const handlePageScroll = (event: PagerViewOnPageScrollEvent) => {
-    const { position } = event.nativeEvent;
-    setCurrentPage(Math.floor(position));
-  };
-
-  // 点击轮播图
-  const handleBannerPress = () => {
-    const currentItem = safeData[currentPage];
-    onBannerPress?.(currentItem);
-    stopAutoPlay();
-  };
-
-  // 指示器
-  const renderIndicator = () => {
-    if (!safeData || safeData.length <= 1) return null;
-
-    return (
-      <View style={styles.indicatorContainer}>
-        {safeData.map((_, index) => (
-          <View
-            key={index}
-            style={[
-              styles.indicatorDot,
-              currentPage === index && styles.indicatorDotActive,
-            ]}
-          />
-        ))}
-      </View>
-    );
-  };
-
-  // 渲染轮播页面
-  const renderPage = (item: BannerItem, index: number) => {
-    return (
-      <TouchableOpacity
-        key={item.id}
-        style={styles.page}
-        onPress={handleBannerPress}
-      >
-        <Image
-          source={{ uri: item.imageUrl }}
-          style={styles.image}
-          contentFit="cover"
-        />
-      </TouchableOpacity>
-    );
-  };
-
-  React.useEffect(() => {
-    startAutoPlay();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-    return () => stopAutoPlay();
-  }, [currentPage, autoPlay, autoPlayInterval]);
 
   return (
     <ThemedView style={[styles.container, { marginTop: insets.top }]}>
       <PagerView
-        ref={pagerRef}
         style={styles.pager}
         initialPage={0}
-        onPageScroll={handlePageScroll}
         orientation="horizontal"
         transitionStyle="scroll"
         showPageIndicator={false}
       >
-        {safeData.map((item, index) => renderPage(item, index))}
+        {data.map((item: BannerItem) => (
+          <TouchableOpacity
+            key={item.id}
+            style={styles.page}
+            onPress={() => onBannerPress?.(item)}
+          >
+            <Image
+              source={{ uri: item.imageUrl }}
+              style={styles.image}
+              contentFit="cover"
+            />
+          </TouchableOpacity>
+        ))}
       </PagerView>
-
-      {/* 指示器 */}
-      {renderIndicator()}
     </ThemedView>
   );
 }
@@ -155,22 +68,5 @@ const styles = StyleSheet.create({
   image: {
     width: '100%',
     height: '100%',
-  },
-  indicatorContainer: {
-    position: 'absolute',
-    bottom: 12,
-    flexDirection: 'row',
-    alignSelf: 'center',
-    gap: 8,
-  },
-  indicatorDot: {
-    width: 8,
-    height: 8,
-    borderRadius: 4,
-    backgroundColor: 'rgba(255, 255, 255, 0.5)',
-  },
-  indicatorDotActive: {
-    backgroundColor: '#FFF',
-    width: 20,
   },
 });
