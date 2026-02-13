@@ -23,10 +23,10 @@ interface ListItem {
 export default function DaPaiTab() {
   const insets = useSafeAreaInsets();
   const route = useRoute<RouteProp<{ params: HomeTabParams }>>();
-  const [banners, setBanners] = useState<BannerItem[]>([
+  const bannerData = [
     { id: '1', imageUrl: 'https://via.placeholder.com/400x180?text=Dapai+Banner+1', title: '大牌活动1' },
     { id: '2', imageUrl: 'https://via.placeholder.com/400x180?text=Dapai+Banner+2', title: '大牌活动2' },
-  ]);
+  ];
   const [products, setProducts] = useState<ListItem[]>([]);
   const [isRefreshing, setIsRefreshing] = useState(false);
 
@@ -46,7 +46,7 @@ export default function DaPaiTab() {
     <ThemedView style={[styles.container, { paddingTop: insets.top }]}>
       {/* 轮播图 */}
       <Banner
-        data={banners}
+        data={bannerData}
         autoPlay
         autoPlayInterval={3000}
         onBannerPress={(item) => console.log('Banner pressed:', item)}
