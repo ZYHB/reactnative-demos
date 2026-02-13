@@ -137,6 +137,8 @@ export function Banner({
   );
 }
 
+export default Banner;
+
 const styles = StyleSheet.create({
   container: {
     width: '100%',
