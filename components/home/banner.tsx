@@ -99,7 +99,6 @@ export function Banner({
       <TouchableOpacity
         key={item.id}
         style={styles.page}
-        activeOpacity={1}
         onPress={handleBannerPress}
       >
         <Image
