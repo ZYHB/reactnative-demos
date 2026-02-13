@@ -13,10 +13,7 @@ export default function TabLayout() {
       screenOptions={{
         tabBarActiveTintColor: Colors[colorScheme ?? 'light'].tabIconSelected,
         tabBarInactiveTintColor: Colors[colorScheme ?? 'light'].tabIconDefault,
-        headerShown: true,  // 显示顶部导航栏
-        headerStyle: {  // 设置导航栏样式
-          backgroundColor: '#FFF',
-        },
+        headerShown: false,  // 隐藏系统导航栏，由各页面自行处理
         tabBarStyle: { backgroundColor: '#FFF' },
         tabBarButton: HapticTab,
       }}>
