@@ -1,6 +1,4 @@
 import { Image } from 'react-native';
-import { useColorScheme } from '@/hooks/use-color-scheme';
-import { Colors } from '@/constants/theme';
 
 interface TabBarIconProps {
   focused: boolean;
