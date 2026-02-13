@@ -14,6 +14,8 @@ export interface BannerItem {
 
 export interface BannerProps {
   data: BannerItem[];
+  autoPlay?: boolean;
+  autoPlayInterval?: number;
   onBannerPress?: (item: BannerItem) => void;
 }
 
