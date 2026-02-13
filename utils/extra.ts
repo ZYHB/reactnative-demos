@@ -4,6 +4,24 @@
 
 export const extraUtil = {
   /**
+   * 判断字符串是否为空或无效值
+   */
+  isNullStr(val: any): boolean {
+    if (
+      val === undefined ||
+      val === 'undefined' ||
+      val === null ||
+      val === 'null' ||
+      val === 'NULL' ||
+      val === '' ||
+      val === ''
+    ) {
+      return true;
+    }
+    return false;
+  },
+
+  /**
    * 判断对象是否为空
    */
   isEmptyObj(obj: any): boolean {
