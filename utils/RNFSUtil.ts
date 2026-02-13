@@ -24,10 +24,10 @@ const RNFSUtil = {
     const directoryPaths = [Paths.cache, Paths.document].filter(Boolean);
     const dirResults: FileItem[] = [];
 
-    for (const directory of directoryPaths) {
+    for (const dirPath of directoryPaths) {
       try {
-        const dir = new Directory(directory);
-        const info = await dir.info();
+        const dir = new Directory(dirPath);
+        const info = dir.info(); // 同步属性访问
 
         const dirItem: FileItem = {
           uri: dir.uri,
@@ -39,7 +39,7 @@ const RNFSUtil = {
         };
         dirResults.push(dirItem);
       } catch (error) {
-        console.error(`Error reading ${directory}:`, error);
+        console.error(`Error reading ${dirPath}:`, error);
       }
     }
 
@@ -55,14 +55,8 @@ const RNFSUtil = {
         return 0;
       }
 
-      const info = await directory.info();
-      if (!info.isDirectory) {
-        // 如果是文件，直接返回大小
-        return info.size ?? 0;
-      }
-
       // 如果是目录，读取内容并递归计算
-      const contents = await directory.listAsync();
+      const contents = directory.list(); // 返回 (File | Directory)[]
       let folderSize = 0;
 
       for (const item of contents) {
@@ -70,7 +64,7 @@ const RNFSUtil = {
           const size = await RNFSUtil.getFolderSizeAtPath(item.uri);
           folderSize += size;
         } else if (item instanceof File) {
-          const fileInfo = await item.info();
+          const fileInfo = item.info();
           folderSize += fileInfo.size ?? 0;
         }
       }
@@ -86,7 +80,7 @@ const RNFSUtil = {
   readDir: async (dirpath: string): Promise<FileItem[]> => {
     try {
       const directory = new Directory(dirpath);
-      const contents = await directory.listAsync();
+      const contents = directory.list(); // 返回 (File | Directory)[]
       const fileItems: FileItem[] = [];
 
       for (const item of contents) {
@@ -95,7 +89,7 @@ const RNFSUtil = {
         if (item instanceof Directory) {
           size = await RNFSUtil.getFolderSizeAtPath(item.uri);
         } else if (item instanceof File) {
-          const fileInfo = await item.info();
+          const fileInfo = item.info();
           size = fileInfo.size ?? 0;
         }
 
