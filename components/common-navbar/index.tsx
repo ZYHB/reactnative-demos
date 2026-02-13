@@ -98,11 +98,13 @@ const styles = StyleSheet.create({
     zIndex: 10,
   },
   title: {
-    flex: 1,
+    position: 'absolute',
+    left: 0,
+    right: 0,
     fontSize: 17,
     fontWeight: '600',
     textAlign: 'center',
-    marginHorizontal: 40,
+    paddingHorizontal: 80,
   },
   rightContent: {
     position: 'absolute',
