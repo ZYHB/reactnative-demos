@@ -4,8 +4,6 @@ import { StatusBar } from 'expo-status-bar';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
-import { Dialog } from '@/components/common/dialog';
-import { Toast } from '@/components/common/toast';
 
 export const unstable_settings = {
   anchor: '(tabs)',
@@ -22,8 +20,7 @@ export default function RootLayout() {
       </Stack>
 
       {/* 全局组件 */}
-      <Dialog />
-      <Toast />
+   
 
       <StatusBar style="auto" />
     </ThemeProvider>

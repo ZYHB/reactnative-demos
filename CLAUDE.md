@@ -75,3 +75,36 @@ npm install        # 安装项目依赖
 - **TypeScript** - 类型检查
 - **React Native Reanimated** - 高性能动画
 - **expo-haptics** - 触觉反馈
+
+## 开发规范
+
+### 文件后缀选择指南
+
+项目使用 TypeScript，严格遵循以下后缀规范：
+
+| 文件后缀 | 用途 | 示例 |
+|---------|------|------|
+| `.tsx` | 包含 JSX 语法的文件 | React 组件、使用 JSX 的文件 |
+| `.ts` | 不包含 JSX 的 TypeScript 代码 | 工具函数、类型定义、API 调用、配置文件 |
+| `.js` | 普通 JavaScript（不推荐用于新代码） | 仅限遗留代码维护 |
+
+**选择规则**：
+- 文件中包含 JSX（如 `<View />`、`<Text />`）→ 使用 `.tsx`
+- 纯 TypeScript 代码（工具函数、hooks、常量）→ 使用 `.ts`
+- 返回 JSX 的函数组件必须是 `.tsx`
+- 不返回 JSX 的辅助函数使用 `.ts`
+
+**示例**：
+```typescript
+// ✅ components/button.tsx - 包含 JSX
+export const Button = () => <View>...</View>;
+
+// ✅ utils/format.ts - 纯工具函数
+export const formatDate = (date: Date): string => { ... };
+
+// ✅ hooks/use-theme.ts - Hook 不含 JSX
+export const useTheme = () => { ... };
+
+// ✅ types/index.ts - 类型定义
+export interface ButtonProps { ... }
+```

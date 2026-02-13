@@ -16,7 +16,19 @@
       "Bash(xargs kill:*)",
       "Bash(cat:*)",
       "Bash(npx expo start:*)",
-      "mcp__fetch__fetch"
+      "mcp__fetch__fetch",
+      "Bash(npx tsc:*)",
+      "Bash(npx eslint:*)",
+      "Bash(pkill:*)",
+      "Bash(code:*)",
+      "Bash(exit:*)",
+      "Bash(for:*)",
+      "Bash(do if [ -d \"utils/$dir\" ])",
+      "Bash([:*)",
+      "Bash(then echo \"✓ $dir\")",
+      "Bash(else echo \"✗ $dir\")",
+      "Bash(fi:*)",
+      "Bash(done:*)"
     ]
   }
 }

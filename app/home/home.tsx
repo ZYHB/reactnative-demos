@@ -1,4 +1,3 @@
-import { EnhancedFlatList } from '@/components/common/flat-list';
 import { Banner } from '@/components/home/banner';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
@@ -12,32 +11,13 @@ interface BannerItem {
   title?: string;
 }
 
-interface ListItem {
-  id: string;
-  title: string;
-  subtitle?: string;
-}
 
 export default function HomeTab() {
   const insets = useSafeAreaInsets();
-  const [banners, setBanners] = useState<BannerItem[]>([
+  const [banners] = useState<BannerItem[]>([
     { id: '1', imageUrl: 'https://via.placeholder.com/400x180?text=Home+Banner+1', title: '首页活动1' },
     { id: '2', imageUrl: 'https://via.placeholder.com/400x180?text=Home+Banner+2', title: '首页活动2' },
   ]);
-  const [products, setProducts] = useState<ListItem[]>([]);
-  const [isRefreshing, setIsRefreshing] = useState(false);
-
-  const handleRefresh = async () => {
-    setIsRefreshing(true);
-    setTimeout(() => {
-      setProducts([
-        { id: '1', title: '热门商品1', subtitle: '￥199' },
-        { id: '2', title: '热门商品2', subtitle: '￥299' },
-        { id: '3', title: '热门商品3', subtitle: '￥399' },
-      ]);
-      setIsRefreshing(false);
-    }, 1000);
-  };
 
   return (
     <ThemedView style={[styles.container, { paddingTop: insets.top }]}>
@@ -52,20 +32,6 @@ export default function HomeTab() {
       <View style={styles.section}>
         <ThemedText style={styles.sectionTitle}>热门推荐</ThemedText>
       </View>
-
-      <EnhancedFlatList
-        data={products}
-        onRefresh={handleRefresh}
-        isRefreshing={isRefreshing}
-        renderItem={(item) => (
-          <View style={styles.productItem}>
-            <ThemedText style={styles.productTitle}>{item.title}</ThemedText>
-            {item.subtitle && (
-              <ThemedText style={styles.productPrice}>{item.subtitle}</ThemedText>
-            )}
-          </View>
-        )}
-      />
     </ThemedView>
   );
 }
