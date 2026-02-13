@@ -76,11 +76,11 @@ export function Banner({
 
   // 指示器
   const renderIndicator = () => {
-    if (data.length <= 1) return null;
+    if (!safeData || safeData.length <= 1) return null;
 
     return (
       <View style={styles.indicatorContainer}>
-        {data.map((_, index) => (
+        {safeData.map((_, index) => (
           <View
             key={index}
             style={[
