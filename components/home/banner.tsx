@@ -40,14 +40,17 @@ export function Banner({
 
   const insets = useSafeAreaInsets();
 
+  // 安全检查：确保 data 不为空
+  const safeData = data.filter((item) => item?.imageUrl);
+
   // 自动轮播
   const startAutoPlay = () => {
-    if (!autoPlay || data.length <= 1) return;
+    if (!autoPlay || safeData.length <= 1) return;
 
     stopAutoPlay();
 
     autoPlayTimerRef.current = setTimeout(() => {
-      const nextPage = (currentPage + 1) % data.length;
+      const nextPage = (currentPage + 1) % safeData.length;
       pagerRef.current?.setPage(nextPage);
       setCurrentPage(nextPage);
       startAutoPlay();
@@ -69,7 +72,7 @@ export function Banner({
 
   // 点击轮播图
   const handleBannerPress = () => {
-    const currentItem = data[currentPage];
+    const currentItem = safeData[currentPage];
     onBannerPress?.(currentItem);
     stopAutoPlay();
   };
@@ -126,7 +129,7 @@ export function Banner({
         transitionStyle="scroll"
         showPageIndicator={false}
       >
-        {data.map((item, index) => renderPage(item, index))}
+        {safeData.map((item, index) => renderPage(item, index))}
       </PagerView>
 
       {/* 指示器 */}
@@ -147,7 +150,6 @@ const styles = StyleSheet.create({
   page: {
     width: DEVICE_WIDTH,
     alignItems: 'center',
-    justifyContent: 'center',
   },
   image: {
     width: '100%',
