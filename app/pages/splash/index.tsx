@@ -1,3 +1,4 @@
+import { Assets } from '@/constants/assets';
 import { DeviceStorage, extraUtil } from '@/utils';
 import Lottie from 'lottie-react-native';
 import React, { useEffect } from 'react';
@@ -26,7 +27,7 @@ export default function SplashScreen() {
   return (
     <View style={styles.container}>
       <Lottie
-        source={require('@/assets/animations/4677-valiu-splashscreen-loader.json')}
+        source={Assets.animations.splash}
         autoPlay={true}
         loop={false}
         style={{flex: 1}}
