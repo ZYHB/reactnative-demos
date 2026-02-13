@@ -1,12 +1,12 @@
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { ThemedText } from '@/components/themed-text';
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+import React from 'react';
+import { StyleSheet, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import DaPaiTab from './dapai';
-import ShanghaiTab from './shanghai';
 import HomeTab from './home';
+import ShanghaiTab from './shanghai';
 import TanguanTab from './tanguan';
 
 const Tab = createMaterialTopTabNavigator();
@@ -27,8 +27,8 @@ function TabNavigator() {
       <Tab.Navigator
         screenOptions={{
           tabBarLabelStyle: styles.tabLabel,
-          tabStyle: styles.tab,
-          indicatorStyle: styles.indicator,
+          tabBarStyle: styles.tab,
+          tabBarIndicatorStyle: styles.indicator,
           tabBarActiveTintColor: '#de6454',
           tabBarInactiveTintColor: '#666',
           tabBarPressColor: '#de6454',
@@ -42,7 +42,7 @@ function TabNavigator() {
           component={DaPaiTab}
           options={{
             tabBarLabel: '大牌',
-            tabBarBackgroundColor: '#EEEEEE',
+            tabBarContentContainerStyle: { backgroundColor: '#EEEEEE' },
           }}
           initialParams={{ title: '大牌', backgroundColor: '#EEEEEE' }}
         />
@@ -51,7 +51,7 @@ function TabNavigator() {
           component={ShanghaiTab}
           options={{
             tabBarLabel: '上海',
-            tabBarBackgroundColor: '#FFFFFF',
+            tabBarContentContainerStyle: { backgroundColor: '#FFFFFF' },
           }}
           initialParams={{ title: '上海', backgroundColor: '#FFFFFF' }}
         />
@@ -68,7 +68,7 @@ function TabNavigator() {
           component={TanguanTab}
           options={{
             tabBarLabel: '探馆',
-            tabBarBackgroundColor: '#334455',
+            tabBarContentContainerStyle: { backgroundColor: '#334455' },
             tabBarLabelStyle: { color: '#FFF' },
             tabBarInactiveTintColor: '#FFF',
             tabBarPressColor: '#FFF',

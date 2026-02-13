@@ -1,9 +1,9 @@
-import React from 'react';
-import { View, StyleSheet, TouchableOpacity, Dimensions } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { PagerView } from 'react-native-pager-view';
-import { Image } from 'expo-image';
 import { ThemedView } from '@/components/themed-view';
+import { Image } from 'expo-image';
+import React from 'react';
+import { Dimensions, StyleSheet, TouchableOpacity } from 'react-native';
+import PagerView from 'react-native-pager-view';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 const DEVICE_WIDTH = Dimensions.get('window').width;
 
@@ -31,8 +31,9 @@ export function Banner({
         style={styles.pager}
         initialPage={0}
         orientation="horizontal"
-        transitionStyle="scroll"
-        showPageIndicator={false}
+        // transitionStyle="scroll"
+        
+        // showPageIndicator={false}
       >
         {data.map((item: BannerItem) => (
           <TouchableOpacity

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { EnhancedFlatList } from '@/components/common/flat-list';
+import { Banner } from '@/components/home/banner';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { Banner } from '@/components/home/banner';
-import { EnhancedFlatList } from '@/components/common/flat-list';
+import React, { useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 interface BannerItem {
   id: string;
@@ -57,7 +57,7 @@ export default function HomeTab() {
         data={products}
         onRefresh={handleRefresh}
         isRefreshing={isRefreshing}
-        renderItem={({ item }) => (
+        renderItem={(item) => (
           <View style={styles.productItem}>
             <ThemedText style={styles.productTitle}>{item.title}</ThemedText>
             {item.subtitle && (

@@ -1,16 +1,13 @@
 import React, { useRef } from 'react';
 import {
-  FlatList,
-  StyleSheet,
-  View,
   ActivityIndicator,
+  FlatList,
   RefreshControl,
   FlatListProps as RNFlatListProps,
-  RefreshControlProps,
-  NativeSyntheticEvent,
-  NativeScrollEvent,
+  StyleSheet,
+  View
 } from 'react-native';
-import { ThemedView } from '@/components/themed-view';
+import { ThemedText } from '../themed-text';
 import { ListCell } from './list-cell';
 
 export interface ListItem {
@@ -20,7 +17,7 @@ export interface ListItem {
   [key: string]: any;
 }
 
-export interface FlatListProps<T extends ListItem> extends Omit<RNFlatListProps<T>, 'renderItem'> {
+export interface FlatListProps<T extends ListItem> extends Omit<RNFlatListProps<T>, 'renderItem' | 'ListEmptyComponent' | 'ListFooterComponent' | 'ListHeaderComponent'> {
   data: T[];
   renderItem?: (item: T, index: number) => React.ReactNode;
   onRefresh?: () => void | Promise<void>;
@@ -28,9 +25,9 @@ export interface FlatListProps<T extends ListItem> extends Omit<RNFlatListProps<
   isRefreshing?: boolean;
   isLoadingMore?: boolean;
   hasMore?: boolean;
-  ListEmptyComponent?: React.ReactNode;
-  ListFooterComponent?: React.ReactNode;
-  ListHeaderComponent?: React.ReactNode;
+  ListEmptyComponent?: React.ReactElement | null;
+  ListFooterComponent?: React.ReactElement | null;
+  ListHeaderComponent?: React.ReactElement | null;
 }
 
 export function EnhancedFlatList<T extends ListItem>({
@@ -60,8 +57,8 @@ export function EnhancedFlatList<T extends ListItem>({
     }
   };
 
-  const handleEndReached = ({ distanceFromEnd }: NativeSyntheticEvent<NativeScrollEvent>) => {
-    if (distanceFromEnd && distanceFromEnd < 300) {
+  const handleEndReached = ({ distanceFromEnd }: { distanceFromEnd: number }) => {
+    if (distanceFromEnd < 300) {
       handleLoadMore();
     }
   };
@@ -99,9 +96,10 @@ export function EnhancedFlatList<T extends ListItem>({
     );
   };
 
-  const defaultRenderItem = ({ item, index }: { item: T; index: number }) => {
+  const defaultRenderItem = ({ item, index }: { item: T; index: number }): React.ReactElement | null => {
     if (renderItem) {
-      return renderItem(item, index);
+      const result = renderItem(item, index);
+      return result as React.ReactElement | null;
     }
 
     return (

@@ -1,16 +1,16 @@
-import React from 'react';
-import {
-  StyleSheet,
-  View,
-  TouchableOpacity,
-  Switch,
-  GestureResponderEvent,
-  StyleProp,
-  ViewStyle,
-} from 'react-native';
-import { Ionicons } from '@expo/vector-icons';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
+import { Ionicons } from '@expo/vector-icons';
+import React from 'react';
+import {
+  GestureResponderEvent,
+  StyleProp,
+  StyleSheet,
+  Switch,
+  TouchableOpacity,
+  View,
+  ViewStyle,
+} from 'react-native';
 
 export type CellType = 'normal' | 'switch';
 

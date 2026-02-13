@@ -1,3 +1,4 @@
+import * as Haptics from 'expo-haptics';
 import React, { useRef, useState } from 'react';
 import {
   Animated,
@@ -8,7 +9,6 @@ import {
   View,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import * as Haptics from 'expo-haptics';
 
 const DEVICE_WIDTH = Dimensions.get('window').width;
 const DEVICE_HEIGHT = Dimensions.get('window').height;
@@ -140,7 +140,7 @@ export function Dialog() {
   };
 
   const getContainerStyle = () => {
-    const baseStyle: Animated.AnimatedProps<typeof View> = {
+    const baseStyle = {
       position: 'absolute',
       top: 0,
       bottom: 0,
@@ -171,7 +171,7 @@ export function Dialog() {
     return { ...baseStyle, ...contentStyle };
   };
 
-  const getContentStyle = (): Animated.AnimatedProps<typeof View> => {
+  const getContentStyle = (): any => {
     switch (mode) {
       case 'bottomToTop':
         return {

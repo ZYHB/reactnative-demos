@@ -1,8 +1,8 @@
+import { ThemedText } from '@/components/themed-text';
+import * as Haptics from 'expo-haptics';
 import React, { useEffect, useRef } from 'react';
 import { Animated, Dimensions, StyleSheet, Text, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { ThemedText } from '@/components/themed-text';
-import * as Haptics from 'expo-haptics';
 
 const DEVICE_WIDTH = Dimensions.get('window').width;
 const TOAST_WIDTH = DEVICE_WIDTH - 100;
@@ -29,7 +29,7 @@ export function Toast() {
 
   const insets = useSafeAreaInsets();
 
-  const hideTimer = useRef<NodeJS.Timeout | null>(null);
+  const hideTimer = useRef<number | null>(null);
 
   const toastRef = useRef<ToastRef>({
     show: (msg: string, toastType: ToastType = 'info', duration: number = 2000) => {

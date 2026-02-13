@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import { View, StyleSheet, FlatList } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { RouteProp, useRoute, useNavigation } from '@react-navigation/native';
+import { EnhancedFlatList } from '@/components/common/flat-list';
+import { Banner } from '@/components/home/banner';
 import { ThemedText } from '@/components/themed-text';
 import { ThemedView } from '@/components/themed-view';
-import { Banner } from '@/components/home/banner';
-import { EnhancedFlatList } from '@/components/common/flat-list';
+import { RouteProp, useRoute } from '@react-navigation/native';
+import React, { useState } from 'react';
+import { StyleSheet, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import type { HomeTabParams } from './_layout';
 
 interface BannerItem {
@@ -59,7 +59,7 @@ export default function DaPaiTab() {
           onRefresh={handleRefresh}
           isRefreshing={isRefreshing}
           ListHeaderComponent={<View style={styles.listHeader}><ThemedText style={styles.sectionTitle}>大牌精选</ThemedText></View>}
-          renderItem={({ item }) => (
+          renderItem={( item ) => (
             <View style={styles.productItem}>
               <ThemedText style={styles.productTitle}>{item.title}</ThemedText>
               {item.subtitle && (
