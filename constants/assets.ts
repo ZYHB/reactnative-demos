@@ -73,28 +73,28 @@ export interface AssetsType {
  * 命名规范：对应底部导航的功能名称
  */
 const TabIcons: Record<string, TabIconPair> = {
-  // 首页
-  home: {
+  // 首页 (name="index")
+  index: {
     normal: require('@/assets/images/tab/tabbar_home.png') as ImageSource,
     selected: require('@/assets/images/tab/tabbar_home_sel.png') as ImageSource,
   },
-  // 课程
-  course: {
-    normal: require('@/assets/images/tab/tabbar_course.png') as ImageSource,
-    selected: require('@/assets/images/tab/tabbar_course_sel.png') as ImageSource,
+  // 新品 (name="news")
+  news: {
+    normal: require('@/assets/images/tab/tabbar_news.png') as ImageSource,
+    selected: require('@/assets/images/tab/tabbar_news_sel.png') as ImageSource,
   },
-  // 问答
-  ask: {
+  // 发现 (name="explore")
+  explore: {
     normal: require('@/assets/images/tab/tabbar_ask.png') as ImageSource,
     selected: require('@/assets/images/tab/tabbar_ask_sel.png') as ImageSource,
   },
-  // 购物车/选择
-  choose: {
+  // 购物车 (name="shopcart")
+  shopcart: {
     normal: require('@/assets/images/tab/tabbar_choose.png') as ImageSource,
     selected: require('@/assets/images/tab/tabbar_choose_sel.png') as ImageSource,
   },
-  // 我的
-  my: {
+  // 我的 (name="mine")
+  mine: {
     normal: require('@/assets/images/tab/tabbar_my.png') as ImageSource,
     selected: require('@/assets/images/tab/tabbar_my_sel.png') as ImageSource,
   },
@@ -154,8 +154,8 @@ const AppIcons: Record<string, ImageSource> = {
   icon: require('@/assets/images/icon.png') as ImageSource,
   splash: require('@/assets/images/splash-icon.png') as ImageSource,
   reactLogo: require('@/assets/images/react-logo.png') as ImageSource,
-  reactLogo2x: require('@/assets/images/react-logo@2x.png') as ImageSource,
-  reactLogo3x: require('@/assets/images/react-logo@3x.png') as ImageSource,
+  reactLogo2x: require('@/assets/images/react-logo.png') as ImageSource,
+  reactLogo3x: require('@/assets/images/react-logo.png') as ImageSource,
 };
 
 // ==================== Lottie 动画资源 ====================
