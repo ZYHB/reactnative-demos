@@ -4,8 +4,6 @@ import {
   StyleSheet,
   TouchableOpacity,
   Dimensions,
-  NativeScrollEvent,
-  NativeSyntheticEvent,
 } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { PagerViewOnPageScrollEvent, PagerView } from 'react-native-pager-view';
@@ -115,6 +113,7 @@ export function Banner({
 
   React.useEffect(() => {
     startAutoPlay();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     return () => stopAutoPlay();
   }, [currentPage, autoPlay, autoPlayInterval]);
 
