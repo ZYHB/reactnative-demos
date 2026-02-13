@@ -1,4 +1,4 @@
-import { extraUtil } from '@/utils/extraUtil';
+import { extraUtil } from '@/utils/extra';
 import { Image, ImageProps } from 'expo-image';
 import React, { useEffect } from 'react';
 import { View } from 'react-native';

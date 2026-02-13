@@ -1,11 +1,10 @@
 import { StyleSheet, View } from 'react-native';
-import HomeTabs from '@/app/home/_layout';
+import HomeScreenContent from '@/app/pages/home';
 
 export default function HomeScreen() {
-  // 使用新的首页 Top Tabs 结构
   return (
     <View style={styles.container}>
-      <HomeTabs />
+      <HomeScreenContent />
     </View>
   );
 }

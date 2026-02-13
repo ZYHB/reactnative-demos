@@ -28,7 +28,12 @@
       "Bash(then echo \"✓ $dir\")",
       "Bash(else echo \"✗ $dir\")",
       "Bash(fi:*)",
-      "Bash(done:*)"
+      "Bash(done:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(xargs:*)",
+      "WebSearch",
+      "mcp__web-reader__webReader"
     ]
   }
 }
