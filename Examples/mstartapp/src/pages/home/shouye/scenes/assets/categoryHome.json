@@ -1,0 +1,1115 @@
+{
+  "floorList": [
+    {
+      "floorId": 87,
+      "floorName": "细分类目",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0901",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0901\",\"floorLoc\":\"0\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"4\",\"floorIdDetail\":\"87\"}",
+      "content": [
+        {
+          "id": 98,
+          "materialId": "2117",
+          "name": "笔记本",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/216039/31/5357/8672/619b69d3Eb66a13c2/ed997dffd91da6cf.png",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "笔记本电脑"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"0\",\"materialId\":\"2117\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2118",
+          "name": "游戏本",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/201140/34/14771/11442/619b6aacEd29ee2b0/13e845b9be9209d4.png",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "游戏本"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"0\",\"materialId\":\"2118\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2123",
+          "name": "二合一平板",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/109057/24/4678/7707/5e240ac2Ee386f1e3/2aeb0d84a0143043.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "二合一平板电脑"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2123\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2193",
+          "name": "打印机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/99989/28/10903/2581/5e241eaaE8301c09e/b0cdbffe7f9cda9c.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "打印机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2193\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2173",
+          "name": "安防监控",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/110231/27/4760/6282/5e2418d5E942a3b66/da1f519501fcdb3e.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "安防监控"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2173\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2169",
+          "name": "游戏耳机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/158504/27/26533/3557/62cf8361E3c188535/8618342f64334e0a.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "游戏耳机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2169\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2223",
+          "name": "墨粉",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/87801/10/10892/4860/5e242398E94d9bf25/105fc6f7f6ed41e9.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "墨粉"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2223\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2148",
+          "name": "线缆",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/95791/35/10821/21645/5e241210E4cabe044/b9a8f37583bde9ce.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "线缆"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2148\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2122",
+          "name": "平板电脑",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/103269/18/10893/17204/5e240991Ed50b74fa/bed9ba2324a2aad0.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "平板电脑"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2122\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2218",
+          "name": "墨盒",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/106120/6/10940/5539/5e242317E19d3b449/82ccc10cb584ee0d.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "墨盒"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2218\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2166",
+          "name": "游戏机",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/108375/29/4633/2880/5e2417a3Ead9db721/8efad752427301f0.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "游戏机"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"10\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2166\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2149",
+          "name": "插座",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/97361/35/10762/17737/5e241245E52726cb4/dbf70f272ed86cc5.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "插座"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"11\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2149\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2124",
+          "name": "笔记本配件",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/92483/23/10867/11998/5e240afbEe278b690/65b3223f46d7846c.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "笔记本配件"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"12\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2124\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 98,
+          "materialId": "2130",
+          "name": "显卡",
+          "img": "https://m15.360buyimg.com/mobilecms/s180x180_jfs/t1/85756/32/10992/11966/5e240d30Ee6a5c00f/b49733ae9b0bc1c6.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "3"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "显卡"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"13\",\"biinfo\":\"diviner#621328#100#ad0ae67d0261e36b0f31bbd08e4c1708f8a6ec82\",\"materialId\":\"2130\",\"sku\":\"\",\"status\":0}"
+          },
+          "iconType": 0
+        },
+        {
+          "id": 0,
+          "name": "更多分类",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/69671/10/12704/2880/5da1a548E0d3bea6c/a43cb049cd5740f5.png",
+          "jump": {
+            "srvJson": "{\"loc\":\"14\",\"biinfo\":\"0\",\"materialId\":\"0\"}"
+          },
+          "iconType": 1
+        }
+      ],
+      "filteredCateIds": "2117,2118,2123,2193,2173,2169,2223,2148,2122,2218,2166,2149,2124,2130",
+      "catePoolId": 97,
+      "cid": "377",
+      "pcid": "234"
+    },
+    {
+      "floorId": 900,
+      "floorName": "一切二-新",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0911",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0911\",\"floorLoc\":\"1\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"4\",\"floorIdDetail\":\"900\"}",
+      "height": 130,
+      "content": [
+        {
+          "id": 8345,
+          "materialId": "8345",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/Y7UJeC8KnEb2y5YufTiDrF2zL7J/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8345\",\"moduleid\":\"8345\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/42974/17/20349/20500/6359fc2dE3b5338f5/fcf5c5e89281c87f.png"
+        },
+        {
+          "id": 8346,
+          "materialId": "8346",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/nKxVyPnuLwAsQSTfidZ9z4RKVZy/index.html?babelChannel=ttt78"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"8346\",\"moduleid\":\"8346\",\"sku\":\"\"}"
+          },
+          "materialType": "1",
+          "bgImg": "https://m15.360buyimg.com/mobilecms/s510x330_jfs/t1/103293/28/35103/20004/63686278E12479c63/50b780f43617a8dc.png"
+        }
+      ]
+    },
+    {
+      "floorId": 85,
+      "floorName": "品牌精选",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/95089/2/241/4595/5da9ba28E291393de/98c77ce1efbef5d0.png",
+      "rightText": "",
+      "style": "0903",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0903\",\"floorLoc\":\"2\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"4\",\"floorIdDetail\":\"85\"}",
+      "content": [
+        {
+          "id": 7157,
+          "materialId": "5934",
+          "name": "得力",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/109849/13/10950/4236/5e843e41E03df3a9f/86b2778ee2fcf7e0.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "得力"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"biinfo\":\"manual\",\"materialId\":\"5934\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "413457",
+          "name": "荣耀",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/139060/38/19638/2825/5fe0477aE64df77e0/55af9759d5e9d78a.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "荣耀"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"413457\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "18374",
+          "name": "小米",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/156223/15/22684/3178/61764659Ebfccc8c1/e84d202cc34091a5.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "小米"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"18374\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "8740",
+          "name": "惠普",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/42555/24/11711/3073/5d53c164E7c86b7a5/db9725025cffb6c0.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "惠普"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"8740\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "8557",
+          "name": "华为",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/132808/6/8420/2045/5f486e43E8ff5f3a1/62b97e5188766c42.png",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "华为"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"8557\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "133267",
+          "name": "海康威视",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/145435/10/21380/4476/61923104E872cc599/78129e126e9a1761.png",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "海康威视"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"133267\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "25591",
+          "name": "vivo",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/115757/4/9851/3464/5ee0af9bEc6576114/0dfceda9f7809bb5.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "vivo"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"25591\"}"
+          }
+        },
+        {
+          "id": 96,
+          "materialId": "7474",
+          "name": "公牛",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/252/10/11529/18115/5bce7d98E35c8962f/850cf6fed42b9450.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productList",
+            "params": {
+              "from": "search",
+              "clearBodyMaps": [
+                {
+                  "key": "searchSource",
+                  "value": "2"
+                },
+                {
+                  "key": "homeRequireAd",
+                  "value": "1"
+                },
+                {
+                  "key": "categorySet",
+                  "value": "671,701,12800,686,677"
+                },
+                {
+                  "key": "stock",
+                  "value": "1"
+                }
+              ],
+              "keyWord": "公牛"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"biinfo\":\"1#f63989c3b73c21221e9c165d715ff4e8017abbdf-100-621309#\",\"materialId\":\"7474\"}"
+          }
+        }
+      ],
+      "showIconName": 1
+    },
+    {
+      "floorId": 1061,
+      "floorName": "抄底价",
+      "showHead": 3,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/130261/33/27642/2440/634d1711E7d443a2a/da67272309dc4ea7.png",
+      "rightText": "",
+      "style": "0913",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0913\",\"floorLoc\":\"3\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"4\",\"floorIdDetail\":\"1061\"}",
+      "content": [
+        {
+          "id": 9704,
+          "materialId": "10021725433052",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/99164/26/27029/41440/6275db55E9e8bb57c/d9fcfc24f972b455.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10021725433052"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"10021725433052\"}"
+          },
+          "title": "苹果（Apple） iPad 第9代 2021款 10.2 英寸平板电脑 A13 仿生芯片 灰色  64GB【极速官方标配】",
+          "img2": "",
+          "sprice": "2499",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9704,
+          "materialId": "100039823339",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/204060/22/27566/93133/635bab90E2f1d3bfc/a40efe2ead698cf0.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100039823339"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100039823339\"}"
+          },
+          "title": "七彩虹（Colorful）火神iGame GeForce RTX 4090 Vulcan OC 24G GDDR6X 设计视频渲染电竞游戏光追显卡",
+          "img2": "",
+          "sprice": "14999",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9704,
+          "materialId": "100008714451",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/166166/6/29259/47510/6369d095Ed001263e/d245b744eefee0ca.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100008714451"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100008714451\"}"
+          },
+          "title": "Bose Earbuds无线消噪耳塞 黑色 真无线蓝牙耳机 降噪豆 Bose大鲨 11级消噪 动态音质均衡技术",
+          "img2": "",
+          "jdPrice": "2299",
+          "sprice": "1899",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": "",
+          "priceTag": "秒杀价"
+        },
+        {
+          "id": 9704,
+          "materialId": "100027363702",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/184067/27/29752/128587/6368f87dE9620e7ad/ab0e4e538beed373.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100027363702"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100027363702\"}"
+          },
+          "title": "联想ThinkBook 15 英特尔酷睿i5 (0ECD) 15.6英寸轻薄笔记本(i5-1155G7 16G 512G 高色域 Win11)",
+          "img2": "",
+          "sprice": "4299",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": "",
+          "priceTag": "闪购价"
+        },
+        {
+          "id": 9704,
+          "materialId": "10041613304764",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/188131/25/29916/57832/632917d8E6a8bc400/ae52a61b0dbb3cbc.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10041613304764"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"10041613304764\"}"
+          },
+          "title": "苹果（Apple） iPad 10.2英寸 第9代 平板电脑 2021年新款插卡4G版 银色 64G Cellular版【蓝牙键盘+膜套】",
+          "img2": "",
+          "promotionTag": "满3680减240",
+          "sprice": "3759",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9704,
+          "materialId": "100023292730",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/101579/31/33092/107590/635f209bEadfaf4cd/602b04d6602a7feb.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100023292730"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"5\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100023292730\"}"
+          },
+          "title": "华硕 ASUS TUF  GeForce  RTX 3060 Ti-O8G-V2-GAMING 电竞游戏专业独立显卡",
+          "img2": "",
+          "sprice": "3849",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9704,
+          "materialId": "100001071956",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/92819/7/32479/96704/6363c93bEb091b20b/90037c17e35f461c.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100001071956"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"6\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100001071956\"}"
+          },
+          "title": "AOC 27英寸 4K高清 IPS广视角 99%sRGB 商用办公节能 低蓝光不闪旋转升降 三边微边 液晶电脑显示器 U2790PQU",
+          "img2": "",
+          "promotionTag": "满1000减300",
+          "sprice": "1799",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": "",
+          "priceTag": "秒杀价"
+        },
+        {
+          "id": 9704,
+          "materialId": "100014373845",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/167265/6/31710/70593/63651eecE3b7e92eb/521562b21805e53b.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100014373845"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"7\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100014373845\"}"
+          },
+          "title": "荣耀MagicBook 16 16.1英寸高性能标压轻薄笔记本电脑(R7-5800H 16+512G 144Hz高刷)冰河银",
+          "img2": "",
+          "sprice": "4199",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9704,
+          "materialId": "100013260409",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/212983/20/23092/80750/636907ceE7672aced/47f5245ba498f115.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "100013260409"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"8\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"100013260409\"}"
+          },
+          "title": "小米平板5(xiaomi)11英寸2.5K高清 120Hz 骁龙860 6G+128GB 33W快充 杜比影音娱乐办公网课平板电脑 黑色",
+          "img2": "",
+          "promotionTag": "满1500减200",
+          "sprice": "1999",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        },
+        {
+          "id": 9704,
+          "materialId": "10025286810791",
+          "name": "抄底价",
+          "img": "https://m15.360buyimg.com/mobilecms/s366x366_jfs/t1/105171/21/33960/56552/63534541E56d89343/02fbe739474084ce.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "productDetail",
+            "params": {
+              "skuId": "10025286810791"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"9\",\"priceProfile\":0,\"biinfo\":\"1#2-6f123bf8f3962bec27e3ce7e8b88ae11e750d4b7-100-710007-3_\",\"pricetag\":\"0\",\"materialId\":\"10025286810791\"}"
+          },
+          "title": "苹果（Apple） 新款AirPods Max头戴式真无线蓝牙运动跑步电竞游戏音乐降噪耳机免息分期 翡翠绿 官方标配",
+          "img2": "",
+          "sprice": "3988",
+          "priceImg": "",
+          "priceColor": "",
+          "promotionTagColor": "",
+          "priceCapsuleImg": "",
+          "priceCapsuleColor": ""
+        }
+      ],
+      "showPriceCurve": 0
+    },
+    {
+      "floorId": 736,
+      "floorName": "电脑共建楼层",
+      "showHead": 0,
+      "rightText": "",
+      "style": "0914",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0914\",\"floorLoc\":\"4\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"4\",\"floorIdDetail\":\"736\"}",
+      "content": [
+        {
+          "id": 8691,
+          "materialId": "8691",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/109759/17/23306/10311/6201e029Ee75e4664/38831a1833659e24.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/31XPWPTonxJ9e5YoQ85HS7z8XNYQ/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"0\",\"materialId\":\"8691\"}"
+          },
+          "title": "电脑馆",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6683,
+          "materialId": "6683",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/181163/33/1237/11749/608805afE9baf3285/3ff19c60ee5b5332.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/3HVeS5MHYjH9Be6xpR9BRL9tr4w/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"1\",\"materialId\":\"6683\"}"
+          },
+          "title": "京品电脑",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6684,
+          "materialId": "6684",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/179700/29/26935/30377/62cf02d0Ec9cf3a61/82782f6c9b6199b7.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/RoiF2F1UZMHQHogyhu4kCTdedX6/index.htmlX6/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"2\",\"materialId\":\"6684\"}"
+          },
+          "title": "快乐办公",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6685,
+          "materialId": "6685",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/189751/37/299/13465/6088061cE34e29594/d310017351143820.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://pro.m.jd.com/mall/active/36ECsU17gYq7d7A8p4kEbq4yr5Y8/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"3\",\"materialId\":\"6685\"}"
+          },
+          "title": "京东游戏",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        },
+        {
+          "id": 6686,
+          "materialId": "6686",
+          "img": "https://m15.360buyimg.com/mobilecms/jfs/t1/182774/31/1167/12150/60880645E72a43c36/81ab696a490dfe1d.jpg!q70.jpg.dpg.webp",
+          "jump": {
+            "des": "m",
+            "params": {
+              "url": "https://prodev.m.jd.com/mall/active/V2ncpc1kK8fANfv6mc1dzNunnTr/index.html"
+            },
+            "srv": "",
+            "srvJson": "{\"loc\":\"4\",\"materialId\":\"6686\"}"
+          },
+          "title": "学生专享",
+          "subTitle": "",
+          "titleColor": "",
+          "subTitleColor": "",
+          "benefitGif": ""
+        }
+      ],
+      "showSubTitle": 0
+    },
+    {
+      "floorId": 883,
+      "floorName": "京挑惠选+热卖榜",
+      "showHead": 2,
+      "headImg": "https://m15.360buyimg.com/mobilecms/jfs/t1/162240/12/31009/11155/63413ecbE15bc73d6/6b13eb38528ea06c.png",
+      "rightText": "",
+      "style": "0906",
+      "srvJson": "{\"classfyid\":\"377\",\"styleid\":\"0906\",\"floorLoc\":\"5\",\"poolid\":\"41\",\"pid\":\"473\",\"classfynum\":\"4\",\"floorIdDetail\":\"883\"}",
+      "content": []
+    }
+  ],
+  "code": "0",
+  "background": {},
+  "pid": "473"
+}
