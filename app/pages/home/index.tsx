@@ -57,6 +57,12 @@ const testData: TestItem[] = [
     title: '列表滚动测试',
     description: '测试滚动性能',
   },
+  {
+    id: '8',
+    title: 'Splash 启动页',
+    description: '查看 Lottie 动画启动页',
+    route: '/pages/splash',
+  },
 ];
 
 export default function HomeScreen() {
